@@ -1,0 +1,765 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    overflow-x: hidden;
+}
+
+
+.container{
+
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0, 0.3)), url(/img/home-new-bg-free-img\ \(1\).jpg);
+    background-size: cover;
+    width: 100vw;
+    
+    
+    
+    
+}
+
+/* Navbar style    */
+
+/* 
+.first{
+    width: 100%;
+
+} */
+
+.firstSection{
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url(/img/home-new-bg-free-img\ \(1\).jpg);
+    background-size: cover;
+    width: 100vw;
+}
+
+.item{
+    color:aliceblue;
+    
+}
+
+div img{
+    height: 90px;
+    width: 90px;
+    filter: invert(100%);
+}
+
+ul{
+   
+    display: flex;
+}
+
+#item2{
+    margin-left: auto;
+    margin-top: 39px;
+}
+#item3{
+    margin-right: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 3px 10px;
+    color:aliceblue;
+    
+} 
+
+#check{
+    display: none;
+}
+
+.checkbtn{
+   
+    color: white;
+    line-height: 95px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;  
+    font-size: 30px;
+    float: right; 
+
+}
+
+ul li{
+    list-style: none;
+}
+@media(max-width:1200px){
+    #item1{
+        height: 85px;
+        width: 85px;
+        
+        
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 1000px){
+    .checkbtn{
+        display:block;
+        
+       
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 95px;
+        left: -100%;
+        text-align: center;
+        display: block;
+        background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0, 0.3)), url(/img/home-new-bg-free-img\ \(1\).jpg);
+    background-size: cover;
+    width: 100vw;
+        
+    }
+    nav ul li{
+        margin: 30px 0;
+        line-height: 15px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    #check:checked ~ nav ul{
+        left: 0;
+    }
+}
+
+.text{
+    margin-left: 50px;
+}
+   
+    
+
+#item3{
+    display: flex;
+    margin-top: 30px;
+    margin-left: auto;
+    padding: 2px 3px;
+    margin-left: 20px;
+    
+}
+.text{
+    margin-left: 50px;
+}
+.hi{
+    margin-top: 10px;
+}
+
+.hello{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5rem;
+    color:aliceblue;
+    padding: 20px;
+    padding-bottom: 30px;
+
+   
+}
+
+.ho{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    font-size: 25px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+.first{  
+    margin-top: 60px;
+  
+}
+
+input{
+    border: none;
+    padding: 12px 20px;
+    margin-bottom: 75px;
+    margin: 20px; 
+    
+}
+
+button{
+    
+    padding: 13px 34px;
+    position: absolute;
+    right: 2px;
+    top: 200px;
+    border-radius: 2px;
+
+}
+
+#test2{
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+
+.trans{
+    background-color: transparent;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+}
+
+.secondImg{
+    /* width: 100%; */
+    height: 120px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url(/img/home-new-bg-free-img\ \(1\).jpg);
+    background-size: cover;
+    width: 100vw;
+    
+    
+}
+
+
+/* Second section */
+
+#box1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin: 60px; */
+}
+
+section div img{
+    height: 40px;
+    width: 139px ;
+    margin-top: 65px;
+    filter:contrast(2);
+}
+
+.nina{
+    padding: 13px;
+}
+
+.gt{
+    font-size: 55px;
+    margin-top: 59px;
+    padding: 10px;
+}
+
+.lt{
+    font-size: 55px;
+    margin-top: 59px;
+    padding: 10px;
+}
+
+section div div img{
+    height: 370px ;
+    width: 300px;
+    padding: 10px;
+    opacity: 0.6;
+    margin: 1opx;
+    /* box-shadow: inset -2px -1px -1px -1px brown; */
+   
+
+
+} 
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+    
+}
+
+.pic{
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 368px;
+    margin: 6px;
+    padding-left: 25px;
+    color:aliceblue;
+    margin-top: 50px;
+
+
+}
+
+#pic2{
+    padding-top: 280px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/img/women-fashion-free-img.jpg);
+    background-size: 100% 100%;
+}
+
+#pic3{
+    padding-top: 280px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/img/men-fashion-free-img.jpg);
+    background-size: 100% 100%;
+}
+
+
+#pic4{
+    padding-top: 280px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/img/footwear-free-img.jpg);
+    background-size: cover;
+
+}
+
+.bold{
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding: 9px 9px;
+}
+.thin{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 9px 9px;
+}
+
+.second{
+    margin-bottom: 120px;
+}
+
+.good{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 5px;
+    font-size: 4.4rem;
+}
+
+
+
+
+
+.label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(23, 21, 21);
+}
+
+.name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+}
+
+.game{
+    height: 210px;
+    width: 210px;
+    /* border: 1px solid black; */
+    padding: 0%;
+} 
+
+.firstLine{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+   
+    
+}
+
+.ayu{
+    margin-top: 20px;
+    color: white;
+}
+
+.sale{
+    height:60px;
+    width: 60px;
+    background-color: skyblue;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+
+#sale1{
+    position: absolute;
+    top: 1540px;
+    margin-left: 360px;
+}
+
+#sale2{
+    position: absolute;
+    top: 1910px;
+    margin-left: 360px;
+
+    
+
+}
+
+.secondLine{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 40px;
+   
+    
+
+}
+
+.shop{
+    padding: 20px 14px;
+   
+}
+
+.third{
+    background-color: rgb(216, 224, 228);
+    font-size: 3rem
+    
+   
+    
+    
+
+}
+
+.forth{
+    background-color: rgb(216, 224, 228);
+    margin-top: 20px;
+}
+
+.game{
+    filter: saturate(0.9);
+    
+    
+               
+}
+
+#game1{
+    position: relative;
+}
+
+#game2{
+    position: relative;
+}
+
+/* .sale{
+    height: 58px;
+    width: 58px;
+    border: 1px solid black;
+    
+} */
+
+.five{
+    color: white;
+    /* width: 92%; */
+    height: 450px;
+    margin: 10px;
+    padding-top: 40px;
+    padding-left: 40px;
+    background: url(/img/banner-03.jpg);
+    
+}
+
+
+
+
+.limited{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+
+}
+
+.special{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lorem{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+}
+    
+
+.buy{
+    padding-left: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+}
+
+.now{
+    margin-left: 50px;
+}
+
+/* section input{
+    padding-left: 20px;
+    margin-left: 50px;
+} */
+
+.six{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 10px;
+    padding-bottom: 80px;
+
+}
+
+.model{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+.symbol{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    /* border: 1px solid black; */
+    padding: 10px 10px;
+    margin: 3px 26px;
+    
+    
+}
+
+.world{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.in{
+    font-size: 15px;
+    margin-bottom: 28px;
+}
+
+.th{
+    font-size: 24px;
+}
+
+.td{
+    display: block;
+    padding-top: 19px;
+    
+
+}
+
+.app{
+    display: block;
+    justify-content: center;
+    margin-top: 20px ;
+    padding: 6px;
+}
+
+.list{
+    /* border: 1px solid black;  */
+    height:230px;
+    width: 230px;
+    padding-top: 60px;
+    padding-left: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+    align-items: center;
+
+}
+
+.seven{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+}
+
+.space{
+    padding: 4px 4px;
+}
+
+.hr{
+    color: gray;
+}
+
+.footer{
+    display: flex;
+    line-height: 80px;
+}
+
+.pg{
+   margin-left: auto;
+}
+
+.rule{
+    margin-left: 580px;
+    color: rgb(85, 184, 223);
+}
+
+@media (max-width:378px){
+    .five{
+        padding-left: 10px;
+        padding-top: 10px;
+        height: 500px;
+        margin: 6px;
+    }
+    .limited{
+        padding-left: 14px;
+    }
+    .special{
+        padding-left: 14px;
+    }
+    .lorem{
+        padding-left: 14px;
+        
+    }
+    .buy{
+        padding-left: 14px;
+    }
+    input {
+        margin: 20px;
+       
+    }
+    .now{
+        margin-left: 14px;
+    }
+
+}
+@media (min-width: 300px) and (max-width:490px){
+    .five{
+        padding-left: 10px;
+        padding-top: 10px;
+        height: 500px;
+        margin: 6px;
+    }
+    .limited{
+        padding-left: 12px;
+    }
+    .special{
+        padding-left: 12px;
+    }
+    .lorem{
+        padding-left: 12px;
+        
+        
+    }
+    .buy{
+        padding-left: 12px;
+    }
+    input {
+        margin: 25px;
+       
+    }
+    .now{
+        margin-left: 14px;
+    }
+    
+}
+
+@media (max-width: 821px){
+    .five{
+        padding-left: 10px;
+        padding-top: 10px;
+        height: 500px;
+        margin: 6px;
+    }
+    .limited{
+        padding-left: 45px;
+    }
+    .special{
+        padding-left: 45px;
+    }
+    .lorem{
+        padding-left: 45px;
+        
+        
+    }
+    .buy{
+        padding-left: 45px;
+    }
+    input {
+        margin: 25px;
+       
+    }
+    .now{
+        margin-left: 45px;
+    }
+    
+}
+@media (max-width: 913px){
+    .five{
+        padding-left: 10px;
+        padding-top: 10px;
+        height: 500px;
+        margin: 6px;
+    }
+    .limited{
+        padding-left: 50px;
+    }
+    .special{
+        padding-left: 50px;
+    }
+    .lorem{
+        padding-left: 50px;
+       
+        
+    }
+    .buy{
+        padding-left: 50px;
+    }
+    input {
+        margin: 25px;
+       
+    }
+    .now{
+        margin-left: 50px;
+    }
+    
+}
+@media (max-width: 280px){
+    .hello{
+        font-size: 2rem;
+        
+        padding-left: 0;
+    }
+    .ho{
+        font-size: 1.5rem;
+        padding-left: 0;
+    }
+    input{
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .pic{
+        padding-left: 10;
+        padding-top: 220px;
+    }
+}
+@media(min-width:900px) and (max-width:1146px){
+    .list{
+        width: 16%;
+    }
+}
+@media(min-width:400px) and (max-width:1000px){
+    .good{
+        font-size: 2.8rem;
+    }
+    
+}
+
+
+@media (min-width:750px) and (max-width:1000px){
+    .hello{
+        font-size: 4.3rem;
+    }
+}
+@media (min-width:650px) and (max-width:751px){
+    .hello{
+        font-size: 3.8rem;
+    }
+}
+@media (min-width:450px) and (max-width:651px){
+    .hello{
+        font-size: 3.2rem;
+    }
+}
+@media (min-width:300px) and (max-width:451px){
+    .hello{
+        font-size: 2.5rem;
+    }
+}
+

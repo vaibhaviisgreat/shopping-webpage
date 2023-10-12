@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive</title>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    /* navbar */
+    #navbar{
+        display: flex;
+        align-items: center;
+        height: 95px;
+        width: 100%;
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url(/img/home-new-bg-free-img\ \(1\).jpg);
+        background-size: cover;
+    }
+
+    /* #logo{
+         margin-right: 350px; 
+
+    } */
+
+    #logo img{
+        height: 95px;
+        width: 95px;
+        filter: invert(100);
+    }
+
+    #navbar ul{
+        display: flex;
+    }
+
+    #navbar ul li{
+        list-style: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #navbar ul li a{
+        text-decoration: none;
+        display: block;
+        padding: 10px 10px;
+        color: aliceblue;
+    }
+    #item3{
+        display: flex;
+        text-align: center;
+       
+        color: aliceblue;
+
+    }
+
+   
+    .hi{
+        margin-top: 10px;
+    }
+
+    .float{
+        margin-left: auto;
+    }
+
+    @media only screen and (min-width:820px) and (max-width:950px){
+        #navbar ul li a{ 
+
+        line-height: 95px;
+        text-align: center;
+        font-size: 5px;
+        }
+    }
+    
+                 
+
+     /* second section */
+
+
+
+</style>
+<body>
+    <nav id="navbar">
+        
+        <div id="logo">
+            <img src="/img/favicon-free-img-120x120.png" alt="Logo">
+        </div>
+
+        <ul class="float">
+            <li class="item"><a href="#">HOME</a></li>
+            <li class="item"><a href="#">STORE</a></li>
+            <li class="item"><a href="#">MEN</a></li>
+            <li class="item"><a href="#">WOMEN</a></li>
+            <li class="item"><a href="#">ACCESSORIES</a></li>
+            <li class="item"><a href="#">ACCOUNT</a></li>
+            <li class="item"><a href="#">ABOUT</a></li>
+            <li class="item"><a href="#">CONTACT US</a></li>            
+            <div id="item3">
+                <p class="hi">&dollar;0.00</p>
+                <i class="fa fa-shopping-bag fa-2x"></i>
+             
+            </div>
+        </ul>
+
+        
+
+    </nav>
+
+
+</body>
+</html>
